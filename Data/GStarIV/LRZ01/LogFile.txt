@@ -1,0 +1,62 @@
+..\OSPtoRINEX.exe  30/01/15 20:56  (INF) Options:
+	(-a)AEND=TRUE
+	(-b)BIAS=TRUE
+	(-c)GPS=C1C,L1C,D1C,S1C
+	(-e)EPHEM=TRUE
+	(-g)G50BPS=FALSE
+	(-h)HELP=FALSE
+	(-i)MINSV=4
+	(-j)ANTN=N/A
+	(-k)ANTT=UNKNOWN
+	(-l)LOGLEVEL=FINEST
+	(-m)MRKNAM=CumbreIGN
+	(-n)NAVI=TRUE
+	(-o)OBSERVER=N/A
+	(-p)RUNBY=FC
+	(-r)RINEX=LRZ
+	(-s)SBAS=C1C,L1C,D1C,S1C
+	(-t)MID=7
+	(-u)MRKNUM=VG55889
+	(-v)VER=V210
+	(-y)AGENCY=N/A
+..\OSPtoRINEX.exe  30/01/15 20:56  (INF) Operators:
+	20140111_131833.OSP
+	
+..\OSPtoRINEX.exe  30/01/15 20:56  (FNE) RINEX header data available: AproxPosition YES;First epoch time YES;Observation interval YES;Receiver version YES
+..\OSPtoRINEX.exe  30/01/15 20:56  (INF) End of RINEX generation. Epochs read: 300
+..\OSPtoTXT.exe  30/01/15 20:58  (INF) Options:
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=INFO
+..\OSPtoTXT.exe  30/01/15 20:58  (INF) Operators:
+	DATA.OSP
+	
+..\OSPtoTXT.exe  30/01/15 20:58  (SVR) Cannot open file DATA.OSP
+..\OSPtoTXT.exe  30/01/15 20:59  (INF) Options:
+	(-h)HELP=TRUE
+	(-l)LOGLEVEL=INFO
+..\OSPtoTXT.exe  30/01/15 20:59  (INF) Operators:
+	DATA.OSP
+	
+..\OSPtoTXT.exe  30/01/15 21:00  (INF) Options:
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+..\OSPtoTXT.exe  30/01/15 21:00  (INF) Operators:
+	20140111_131833.OSP
+	
+..\OSPtoTXT.exe  30/01/15 21:00  (INF) End of data extraction. Messages read: 3659
+..\OSPtoRTK.exe  30/01/15 21:01  (INF) Start execution with Options:
+	(-h)HELP=TRUE
+	(-l)LOGLEVEL=INFO
+	(-m)MINSV=4
+..\OSPtoRTK.exe  30/01/15 21:01  (INF) Operators:
+	DATA.OSP
+	
+..\OSPtoRTK.exe  30/01/15 21:01  (INF) Start execution with Options:
+	(-h)HELP=FALSE
+	(-l)LOGLEVEL=FINEST
+	(-m)MINSV=4
+..\OSPtoRTK.exe  30/01/15 21:01  (INF) Operators:
+	20140111_131833.OSP
+	
+..\OSPtoRTK.exe  30/01/15 21:01  (FNE) RTKO header data available: Fist epoch time YES;Mask data YES
+..\OSPtoRTK.exe  30/01/15 21:01  (INF) End of data extraction. Epochs read: 300
